@@ -11,7 +11,7 @@
         <hr>
         <br>
 
-        <form>
+        <form action="" method="post">
             <div>
 
                 <label for="texto">Nome:</label>
@@ -69,10 +69,26 @@
                 <input type="reset" name="reset" id="reset">
             </div>
 
+            <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+
+            <div>
+                <select name="select" id="select">
+                    <option value="" disabled selected>Selecione uma das opções...</option>
+                    <option value="receita">Receita</option>
+                    <option value="despesa">Despesa</option>
+                    <option value="transferencia">Transferência</option>
+    
+                </select>
+            </div>
+           
+
             <div>
                
                 <input type="submit" name="enviar" id="enviar" value="Enviar">
             </div>
+           
+
+            
             
 
         </form>
