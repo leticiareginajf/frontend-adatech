@@ -40,21 +40,22 @@ p {
 
 .boxes {
     /*height: calc(100vh - (7 * 2rem)); */
-    height: calc(100vh);
+    /*height: calc(100vh);
     /*height: 100vh;*/
     /*height: calc(100vh - 7rem);*/
     position: relative;
     display: flex;
     /*flex-wrap: wrap;
     /*flex-direction: column;*/
-    flex-flow: row wrap;
+    /*flex-flow: row wrap;
     /*align-items: center;*/
-    justify-content: space-evenly;
-    /* flex-direction: row;
+    /*justify-content: space-evenly;
+    /* flex-direction: row;*/
     flex-wrap: wrap; 
-    flex-flow: row wrap;
+    flex-direction: column-reverse;
+    /*flex-flow: row wrap;
     justify-content: flex-start;
-    /* align-items: center; */
+    /* align-items: center; 
     align-content: center;
     gap: 2rem 5rem;
     /*padding: 0 4rem;*/
